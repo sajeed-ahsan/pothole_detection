@@ -1,0 +1,27 @@
+# Python virtual environment
+pothole_env/
+
+# Training runs and prediction results
+runs/
+prediction_results/
+prediction_results_with_severity/
+validation_tests/
+video_results/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch and model files
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large media files (add any other videos you have)
+sample_video.mp4
+sample_video2.mp4
+# Image datasets
+# Ignore the entire dataset
+dataset/
